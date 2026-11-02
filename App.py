@@ -3,13 +3,13 @@
 import os
 
 import streamlit as st
-from google import genai.client
+from google import genai
 from google.genai import types
 
 # ----------------------------------------------------------------------------
 # Config
 # ----------------------------------------------------------------------------
-DEFAULT_MODEL = "gemini-3.8-flash"  # change to any Gemini Flash model id
+DEFAULT_MODEL = "gemini-3.6-flash"  # change to any Gemini Flash model id
 MAX_HISTORY_MESSAGES = 20  # last N messages sent to the model
 MAX_INPUT_CHARS = 4000
 
